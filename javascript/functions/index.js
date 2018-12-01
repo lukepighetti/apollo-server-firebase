@@ -21,6 +21,6 @@ const resolvers = {
 // setup express cloud function
 const app = express();
 const server = new ApolloServer({ typeDefs, resolvers });
-server.applyMiddleware({ app, path: "*", cors: true });
+server.applyMiddleware({ app, path: "/", cors: true });
 
 exports.graphql = functions.https.onRequest(app);
