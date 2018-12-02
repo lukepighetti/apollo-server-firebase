@@ -1,0 +1,25 @@
+{
+  "hotdogs" : {
+    "hebrew_national" : {
+      "isKosher" : true,
+      "location" : "New York City",
+      "name" : "Hebrew National",
+      "style" : "Kosher Beef",
+      "website" : "https://www.hebrewnational.com"
+    },
+    "oscar" : {
+      "isKosher" : false,
+      "location" : "Chicago",
+      "name" : "Oscar Mayer",
+      "style" : "Schmorgesborg",
+      "website" : "http://www.oscarmayer.com/"
+    },
+    "wa_beans" : {
+      "isKosher" : false,
+      "location" : "Bangor",
+      "name" : "W.A. Bean",
+      "style" : "Maine Red Snapper",
+      "website" : "https://www.beansmeats.com"
+    }
+  }
+}
